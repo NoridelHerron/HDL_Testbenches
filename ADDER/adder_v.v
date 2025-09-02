@@ -4,7 +4,7 @@
 // Date 9/1/2025
 // Scalable Adder
 
-module adder_v #(parameter DATA_WIDTH = 4)(  // Chenge the value based on the bit width you like to test
+module adder_v #(parameter DATA_WIDTH = 8)(  // Chenge the value based on the bit width you like to test
     input  [DATA_WIDTH-1:0] A,
     input  [DATA_WIDTH-1:0] B,
     input                   Ci,

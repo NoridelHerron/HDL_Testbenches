@@ -8,7 +8,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity adder is
-    Generic( DATA_WIDTH : natural := 4 );  --
+    Generic( DATA_WIDTH : natural := 4 );  
     Port (
             A, B : in  std_logic_vector (DATA_WIDTH - 1 downto 0);
             Ci   : in  std_logic;
